@@ -1,10 +1,11 @@
 /*
+字体
 @font-face {
     font-family: 'sleek';
     src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
 }
 
-// 滚动条 
+滚动条 
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -25,3 +26,31 @@
     background-color: #e58a8a;
 }
 */
+
+/*分类卡片折叠*/
+#aside_content
+.card-archives
+ul.card-archive-list
+> .card-archive-list-item
+a
+span:first-child,
+#aside_content
+.card-categories
+ul.card-category-list
+> .card-category-list-item
+a
+span:first-child {
+    width: auto;
+    min-width: 50%;
+}
+
+/*阅读模式的背景和字体大小*/
+.read-mode{
+    /* 字体大小 */
+    font-size:17px;
+    /* 可以在这里引入自定义字体，具体方法请自行百度css引入字体 */
+}
+.read-mode #web_bg{
+    /* 背景颜色 */
+    background:#fdf6e3;
+}

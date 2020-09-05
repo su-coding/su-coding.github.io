@@ -3,6 +3,10 @@ $(document).ready(function(e){
     $('.copyright').html('©2020 <i	style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heartbeat"></i> SU');
 	//修改主页中心标题
 	$('#site_title').text('保持孤独,继续前进');
+	//加入书签弹出层
+	//$("#card-info-btn").click(function(){
+	//	alert("按Ctrl+D将主页添加至书签");
+	//});
 });
 
 /*
@@ -45,4 +49,5 @@ for (var i = 0; i < card_category_list.length; i++) {
     card_category_list[i].previousSibling.innerHTML +=
         '<i class="fa fa-chevron-up menus-expand  menus-closed" aria-hidden="true" style="margin-left:20px;" οnclick="toggle(this)"></i>';
 }
+
 
